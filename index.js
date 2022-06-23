@@ -47,5 +47,5 @@ app.delete('/api/casos/:id', (req, res) => {
     res.send(caso);
 })
 
-const port = process.env.port || 3000;
-app.listen(port, () => console.log(`Escuchando el puerto ${port}`));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Escuchando el puerto ${PORT}`));
