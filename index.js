@@ -48,4 +48,4 @@ app.delete('/api/casos/:id', (req, res) => {
 })
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Escuchando el puerto ${PORT}`));
+app.listen(port, () => console.log(`Escuchando el puerto ${port}`));
