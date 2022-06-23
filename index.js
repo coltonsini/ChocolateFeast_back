@@ -16,9 +16,9 @@ app.use((req, res, next) => {
 
 
 const casos = [
-    {id: 1, n: 10, c: 2, m:5, enroll: true},
-    {id: 2, n: 10, c: 2, m:5, enroll: false},
-    {id: 3, n: 10, c: 2, m:5, enroll: false}
+    {id: 1, n: 10, c: 2, m: 5, enroll: true},
+    {id: 2, n: 12, c: 4, m: 4, enroll: false},
+    {id: 3, n: 6, c: 2, m: 2, enroll: false}
 ];
 
 app.get('/', (req, res) => {   
