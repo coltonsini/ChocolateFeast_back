@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path')
 const app = express();
 
 app.use(express.json());
@@ -46,5 +47,5 @@ app.delete('/api/casos/:id', (req, res) => {
     res.send(caso);
 })
 
-const port = process.env.port || 80;
+const port = process.env.port || 3000;
 app.listen(port, () => console.log(`Escuchando el puerto ${port}`));
